@@ -1,0 +1,51 @@
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.deps.json
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.json
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.dev.json
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csprojResolveAssemblyReference.cache
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csproj.CoreCompileInputs.cache
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfoInputs.cache
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfo.cs
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.deps.json
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.json
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.dev.json
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csproj.CoreCompileInputs.cache
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfoInputs.cache
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfo.cs
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+D:\L2Mentoring.Module1Homework\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.deps.json
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.json
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.dev.json
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csproj.CoreCompileInputs.cache
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfoInputs.cache
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfo.cs
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll.config
+C:\L2 Mentoring\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1HomeworkContinue\L2Mentoring.Module1Homework\L2Mentoring.Module1\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csprojResolveAssemblyReference.cache
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll.config
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.deps.json
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.json
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.runtimeconfig.dev.json
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csprojResolveAssemblyReference.cache
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.csproj.CoreCompileInputs.cache
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfoInputs.cache
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfo.cs
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\ServiceInterfaces.dll
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\Services.dll
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\ServiceInterfaces.pdb
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\Services.pdb
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\DAL.dll
+C:\L2 Mentoring\HomeWork\L2Mentoring.Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\DAL.pdb
