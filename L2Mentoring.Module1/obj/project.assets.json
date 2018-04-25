@@ -3450,11 +3450,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\L2Mentoring.Module1\\L2Mentoring.Module1.csproj",
+      "projectUniqueName": "C:\\L2 Mentoring\\Projects\\L2Module1\\L2Mentoring.Module1\\L2Mentoring.Module1.csproj",
       "projectName": "L2Mentoring.Module1",
-      "projectPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\L2Mentoring.Module1\\L2Mentoring.Module1.csproj",
+      "projectPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\L2Mentoring.Module1\\L2Mentoring.Module1.csproj",
       "packagesPath": "C:\\Users\\zsto01\\.nuget\\packages\\",
-      "outputPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\L2Mentoring.Module1\\obj\\",
+      "outputPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\L2Mentoring.Module1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3473,14 +3473,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\DAL\\DAL.csproj"
+            "C:\\L2 Mentoring\\Projects\\L2Module1\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\DAL\\DAL.csproj"
             },
-            "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\ServiceInterfaces\\ServiceInterfaces.csproj": {
-              "projectPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\ServiceInterfaces\\ServiceInterfaces.csproj"
+            "C:\\L2 Mentoring\\Projects\\L2Module1\\ServiceInterfaces\\ServiceInterfaces.csproj": {
+              "projectPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\ServiceInterfaces\\ServiceInterfaces.csproj"
             },
-            "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\Services\\Services.csproj": {
-              "projectPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\Services\\Services.csproj"
+            "C:\\L2 Mentoring\\Projects\\L2Module1\\Services\\Services.csproj": {
+              "projectPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\Services\\Services.csproj"
             }
           }
         }

@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\ServiceInterfaces\\ServiceInterfaces.csproj",
+      "projectUniqueName": "C:\\L2 Mentoring\\Projects\\L2Module1\\ServiceInterfaces\\ServiceInterfaces.csproj",
       "projectName": "ServiceInterfaces",
-      "projectPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\ServiceInterfaces\\ServiceInterfaces.csproj",
+      "projectPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\ServiceInterfaces\\ServiceInterfaces.csproj",
       "packagesPath": "C:\\Users\\zsto01\\.nuget\\packages\\",
-      "outputPath": "C:\\L2 Mentoring\\HomeWork\\L2Mentoring.Module1\\ServiceInterfaces\\obj\\",
+      "outputPath": "C:\\L2 Mentoring\\Projects\\L2Module1\\ServiceInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
