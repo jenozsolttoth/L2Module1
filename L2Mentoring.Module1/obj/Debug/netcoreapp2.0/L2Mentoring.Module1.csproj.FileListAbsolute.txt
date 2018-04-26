@@ -16,3 +16,9 @@ C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L
 C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.AssemblyInfo.cs
 C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.dll
 C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\obj\Debug\netcoreapp2.0\L2Mentoring.Module1.pdb
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.InterfaceImplementations.dll
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.Interfaces.dll
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.States.dll
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.InterfaceImplementations.pdb
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.Interfaces.pdb
+C:\L2 Mentoring\Projects\L2Module1\L2Mentoring.Module1\bin\Debug\netcoreapp2.0\L2Mentoring.Module1.States.pdb

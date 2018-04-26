@@ -1,5 +1,5 @@
 ﻿
-namespace L2Mentoring.Module1.Helpers
+namespace DAL.Entities
 {
     public class ProductQuantity
     {

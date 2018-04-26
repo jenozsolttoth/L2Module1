@@ -1,6 +1,6 @@
 ﻿using ServiceInterfaces;
 
-namespace Services
+namespace Services.CustomerService
 {
     public class CustomerEntityServiceResult : IServiceResult<ICustomerEntity>
     {

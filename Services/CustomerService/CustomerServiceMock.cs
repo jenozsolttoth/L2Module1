@@ -24,7 +24,7 @@ namespace Services.CustomerService
                     return new CustomerServiceResult(a.ParseCustomer(name, regdate), true, "All good."); 
                 }
             }
-            return null;
+            return new CustomerServiceResult(null, false, CannotParseErrorMessage);
         }
     }
 }

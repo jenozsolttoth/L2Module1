@@ -1,5 +1,6 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
+using DAL.Entities;
 using Newtonsoft.Json;
 using ServiceInterfaces;
 using Services;

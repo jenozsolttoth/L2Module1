@@ -9,6 +9,9 @@
       "L2Mentoring.Module1/1.0.0": {
         "dependencies": {
           "DAL": "1.0.0",
+          "L2Mentoring.Module1.InterfaceImplementations": "1.0.0",
+          "L2Mentoring.Module1.Interfaces": "1.0.0",
+          "L2Mentoring.Module1.States": "1.0.0",
           "NodaTime": "2.3.0-beta02",
           "ServiceInterfaces": "1.0.0",
           "Services": "1.0.0",
@@ -371,6 +374,28 @@
           "DAL.dll": {}
         }
       },
+      "L2Mentoring.Module1.InterfaceImplementations/1.0.0": {
+        "dependencies": {
+          "L2Mentoring.Module1.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "L2Mentoring.Module1.InterfaceImplementations.dll": {}
+        }
+      },
+      "L2Mentoring.Module1.Interfaces/1.0.0": {
+        "dependencies": {
+          "DAL": "1.0.0",
+          "L2Mentoring.Module1.States": "1.0.0"
+        },
+        "runtime": {
+          "L2Mentoring.Module1.Interfaces.dll": {}
+        }
+      },
+      "L2Mentoring.Module1.States/1.0.0": {
+        "runtime": {
+          "L2Mentoring.Module1.States.dll": {}
+        }
+      },
       "ServiceInterfaces/1.0.0": {
         "runtime": {
           "ServiceInterfaces.dll": {}
@@ -673,6 +698,21 @@
       "hashPath": "system.xml.xmlserializer.4.0.11.nupkg.sha512"
     },
     "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "L2Mentoring.Module1.InterfaceImplementations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "L2Mentoring.Module1.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "L2Mentoring.Module1.States/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

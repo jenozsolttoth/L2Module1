@@ -6,16 +6,16 @@ namespace DAL
 {
     public class HttpCaller
     {
-        public async Task<HttpResponseMessage> GetResponse(string URL)
+        public async Task<HttpResponseMessage> GetResponse(string url)
         {
             using (var client = new HttpClient())
             {
-                var response = await client.GetAsync(URL);
+                var response = await client.GetAsync(url);
                 return response;
             }
         }
 
-        public async Task<HttpResponseMessage> Post(string URL, string data)
+        public HttpResponseMessage Post(string url, string data)
         {
             throw new NotImplementedException();
         }

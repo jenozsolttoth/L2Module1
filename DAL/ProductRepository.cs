@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using ServiceInterfaces;
 using Services.ProductService;
+using Product = DAL.Entities.Product;
 
 namespace DAL
 {

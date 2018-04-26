@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\L2Mentoring.Module1.Interfaces\L2Mentoring.Module1.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

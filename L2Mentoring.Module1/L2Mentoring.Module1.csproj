@@ -13,6 +13,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\L2Mentoring.Module1.InterfaceImplementations\L2Mentoring.Module1.InterfaceImplementations.csproj" />
+    <ProjectReference Include="..\L2Mentoring.Module1.Interfaces\L2Mentoring.Module1.Interfaces.csproj" />
+    <ProjectReference Include="..\L2Mentoring.Module1.States\L2Mentoring.Module1.States.csproj" />
     <ProjectReference Include="..\ServiceInterfaces\ServiceInterfaces.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>

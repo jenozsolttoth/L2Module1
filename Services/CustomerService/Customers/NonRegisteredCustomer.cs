@@ -5,12 +5,10 @@ namespace Services.CustomerService.Customers
 {
     class NonRegisteredCustomer : ICustomer
     {
-        private readonly IYearCounter _yearCounter;
-        public NonRegisteredCustomer(string name, DateTime? registrationDate, IYearCounter yearCounter, IShoppingCart cart)
+        public NonRegisteredCustomer(string name, DateTime? registrationDate, IShoppingCart cart)
         {
             Name = name;
             RegistrationDate = registrationDate;
-            _yearCounter = yearCounter;
             Cart = cart;
         }
         public string Name { get; }

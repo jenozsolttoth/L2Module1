@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using L2Mentoring.Module1.Interfaces;
+using L2Mentoring.Module1.States;
 using ServiceInterfaces;
 
 namespace L2Mentoring.Module1
@@ -10,22 +12,32 @@ namespace L2Mentoring.Module1
         private readonly ICustomerService _customerService;
         private readonly IProductService _productService;
         private readonly IOrderService _orderService;
+        private readonly IArgsVerifier _argsVerifyer;
+        private readonly IProductParser _productParser;
 
-        public Runner(ICustomerService customerService, IProductService productService, IOrderService orderService)
+        public Runner(
+            ICustomerService customerService, 
+            IProductService productService, 
+            IOrderService orderService, 
+            IArgsVerifier argsVerifyer, 
+            IProductParser productParser
+            )
         {
             _customerService = customerService;
             _productService = productService;
             _orderService = orderService;
+            _argsVerifyer = argsVerifyer;
+            _productParser = productParser;
         }
-        public int Run(string[] args)
+        public ReturnState Startup(string[] args)
         {
-            int argsVerification = VerifyArgs(args);
-            if (argsVerification == 1)
+            ReturnState argsVerification = _argsVerifyer.VerifyArgs(args);
+            if (argsVerification == ReturnState.Ok)
             {
                 var customerResponse = _customerService.GetCustomer(args[0]);
                 ICustomer currentCustomer = customerResponse.Entity;
 
-                var products = Helper.ParseProducts(args[1]);
+                var products = _productParser.ParseProducts(args[1]);
                 foreach (var product in products)
                 {
                     var productResponse = _productService.GetProduct(product.ProductName);
@@ -45,30 +57,7 @@ namespace L2Mentoring.Module1
             {
                 return argsVerification;
             }
-            return 0;
-        }
-
-        private int VerifyArgs(string[] args)
-        {
-            string customerName = "";
-            if ( args.Length > 0 )
-            {
-                customerName = args[0];
-                if ( customerName == "help" )
-                {
-                    Console.WriteLine("L2Mentoring.Module1.exe usage:");
-                    Console.WriteLine("\tL2Mentoring.Module1.exe \"Oleksandr Zhevzhyk\" \"ProductA:2;ProductB:1;ProductC:1\"");
-                    Console.WriteLine("\tL2Mentoring.Module1.exe \"\" \"ProductA:1;ProductB:2\"");
-                    return 0;
-                }
-            }
-            else
-            {
-                Console.WriteLine("No parameters provided.");
-                Console.WriteLine("Run L2Mentoring.Module1.exe help");
-                return 4;
-            }
-            return 1;
+            return ReturnState.Ready;
         }
     }
 }

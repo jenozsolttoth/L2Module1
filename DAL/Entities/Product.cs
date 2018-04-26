@@ -1,6 +1,6 @@
 ﻿using ServiceInterfaces;
 
-namespace DAL
+namespace DAL.Entities
 {
     public class Product : IProduct
     {

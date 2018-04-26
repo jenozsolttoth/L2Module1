@@ -19,7 +19,7 @@ namespace L2Mentoring.Module1
         {
             Container container = new ModuleConfiguration().ConfigureModule();
             Runner runner = container.GetInstance<Runner>();
-            return runner.Run(args);
+            return runner.Startup(args).ReturnCode;
         }
 
         public static void SendEmail(string topic, string body, string from, string to)

@@ -1,7 +1,7 @@
 ﻿using System;
 using ServiceInterfaces;
 
-namespace DAL
+namespace DAL.Entities
 {
     public class Customer : ICustomerEntity
     {
