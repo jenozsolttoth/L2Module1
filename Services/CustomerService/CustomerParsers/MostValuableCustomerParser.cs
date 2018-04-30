@@ -8,19 +8,19 @@ namespace Services.CustomerService.CustomerParsers
     {
         private readonly IYearCounter _yearCounter;
         private readonly IShoppingCart _shoppingCart;
+
+        public int CanParseType { get; }
+
         public MostValuableCustomerParser(IYearCounter yearCounter, IShoppingCart shoppingCart)
         {
             _yearCounter = yearCounter;
             _shoppingCart = shoppingCart;
+            CanParseType = (int) CustomerTypes.MostValuableCustomer;
         }
 
         public ICustomer ParseCustomer(string name, DateTime? registrationDate)
         {
             return new MostValuableCustomer(name, registrationDate, _yearCounter, _shoppingCart);
-        }
-        public bool CanParse(int type)
-        {
-            return ( CustomerTypes )type == CustomerTypes.MostValuableCustomer;
-        }
+        }      
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using ServiceInterfaces;
+using System.Linq;
 
 namespace Services.CustomerService
 {
@@ -18,14 +19,14 @@ namespace Services.CustomerService
             var response = _customerRepository.GetCustomer(name);
             if (response.Success)
             {
-                foreach (var customerParser in _customerParsers)
+                ICustomerParser parser = _customerParsers.Where(x => x.CanParseType == response.Entity.Type).SingleOrDefault();
+                if (parser != null)
                 {
-                    if (customerParser.CanParse(response.Entity.Type))
-                    {
-                        ICustomer customer = customerParser.ParseCustomer(response.Entity.Name, response.Entity.RegistrationDate);
-                        return new GenericServiceResult<ICustomer>(customer, response.Success, response.Message);
-                    }
+                    ICustomer customer = null;
+                    customer = parser.ParseCustomer(name, response.Entity.RegistrationDate);
+                    return new GenericServiceResult<ICustomer>(customer, true, "All good.");
                 }
+                
             }
             else
             {

@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CustomerService\CustomerServiceResult.cs" />
+    <Compile Remove="OrderService\OrderServiceResult.cs" />
+    <Compile Remove="ProductService\ProductServiceResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ServiceInterfaces\ServiceInterfaces.csproj" />
   </ItemGroup>
 
