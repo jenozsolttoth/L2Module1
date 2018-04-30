@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using DAL.Entities;
 using Newtonsoft.Json;
 using ServiceInterfaces;
-using Services;
+using Services.CustomerService;
 
 namespace DAL
 {
