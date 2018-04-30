@@ -14,7 +14,7 @@ namespace Services.ProductService
             var response = _productRepository.GetProduct(name);
             if ( response.Success && response.Entity == null )
             {
-                response = new ProductServiceResult(null, false, "There is no such a product.");
+                response = new GenericServiceResult<IProduct>(null, false, "There is no such a product.");
             }
 
             return response;

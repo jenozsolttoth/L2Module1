@@ -23,15 +23,15 @@ namespace Services.CustomerService
                     if (customerParser.CanParse(response.Entity.Type))
                     {
                         ICustomer customer = customerParser.ParseCustomer(response.Entity.Name, response.Entity.RegistrationDate);
-                        return new CustomerServiceResult(customer, response.Success, response.Message);
+                        return new GenericServiceResult<ICustomer>(customer, response.Success, response.Message);
                     }
                 }
             }
             else
             {
-                return new CustomerServiceResult(null, false, response.Message);
+                return new GenericServiceResult<ICustomer>(null, false, response.Message);
             }
-            return new CustomerServiceResult(null, false, CannotParseErrorMessage);
+            return new GenericServiceResult<ICustomer>(null, false, CannotParseErrorMessage);
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Services.ProductService
         public IServiceResult<IProduct> GetProduct(string name)
         {
             Product product = new Product(name, name, true, Rnd.Next(200, 20000));
-            return new ProductServiceResult(product, true, "All good.");
+            return new GenericServiceResult<IProduct>(product, true, "All good.");
         }
     }
 }

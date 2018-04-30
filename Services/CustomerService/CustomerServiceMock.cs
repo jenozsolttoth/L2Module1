@@ -21,10 +21,10 @@ namespace Services.CustomerService
             {
                 if ( a.CanParse(type) )
                 {
-                    return new CustomerServiceResult(a.ParseCustomer(name, regdate), true, "All good."); 
+                    return new GenericServiceResult<ICustomer>(a.ParseCustomer(name, regdate), true, "All good."); 
                 }
             }
-            return new CustomerServiceResult(null, false, CannotParseErrorMessage);
+            return new GenericServiceResult<ICustomer>(null, false, CannotParseErrorMessage);
         }
     }
 }

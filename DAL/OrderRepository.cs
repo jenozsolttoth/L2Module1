@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using ServiceInterfaces;
-using Services.OrderService;
+using Services;
 
 namespace DAL
 {
@@ -21,9 +21,9 @@ namespace DAL
             HttpResponseMessage message = mess.Result;
             if (message.IsSuccessStatusCode)
             {
-                return new OrderServiceResult(products, true, "All good.");
+                return new GenericServiceResult<IEnumerable<IProduct>>(products, true, "All good.");
             }
-            return new OrderServiceResult(null,false, "Error.");
+            return new GenericServiceResult<IEnumerable<IProduct>>(null,false, "Error.");
         }
     }
 }

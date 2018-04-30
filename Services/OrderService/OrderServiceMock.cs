@@ -9,7 +9,7 @@ namespace Services.OrderService
     {
         public IServiceResult<IEnumerable<IProduct>> PlaceOrder(List<Tuple<IProduct, int>> products)
         {
-            return new OrderServiceResult(products.Select(x=>x.Item1).ToList(), true, "All good");
+            return new GenericServiceResult<IEnumerable<IProduct>>(products.Select(x=>x.Item1).ToList(), true, "All good");
         }
     }
 }

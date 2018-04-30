@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using DAL.Entities;
 using Newtonsoft.Json;
 using ServiceInterfaces;
-using Services.CustomerService;
+using Services;
 
 namespace DAL
 {
@@ -22,7 +22,7 @@ namespace DAL
             mess.Start();
             HttpResponseMessage message = mess.Result;
             Customer customer = JsonConvert.DeserializeObject<Customer>(message.Content.ReadAsStringAsync().Result);
-            IServiceResult<ICustomerEntity> result = new CustomerEntityServiceResult(customer, message.IsSuccessStatusCode, message.StatusCode.ToString());
+            IServiceResult<ICustomerEntity> result = new GenericServiceResult<ICustomerEntity>(customer, message.IsSuccessStatusCode, message.StatusCode.ToString());
             return result;
         }
     }

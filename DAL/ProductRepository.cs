@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using ServiceInterfaces;
-using Services.ProductService;
+using Services;
 using Product = DAL.Entities.Product;
 
 namespace DAL
@@ -21,7 +21,7 @@ namespace DAL
             Task<HttpResponseMessage> mess = caller.GetResponse(_configurationRepository.GetUrl("ProductEndpoint"));
             HttpResponseMessage message = mess.Result;
             IProduct product = JsonConvert.DeserializeObject<Product>(message.Content.ReadAsStringAsync().Result);
-            IServiceResult<IProduct> result = new ProductServiceResult(product, message.IsSuccessStatusCode, message.StatusCode.ToString());
+            IServiceResult<IProduct> result = new GenericServiceResult<IProduct>(product, message.IsSuccessStatusCode, message.StatusCode.ToString());
             return result;
         }
     }
