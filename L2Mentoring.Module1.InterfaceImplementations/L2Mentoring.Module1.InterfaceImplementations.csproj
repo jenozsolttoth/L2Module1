@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ILineSeparator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\L2Mentoring.Module1.Interfaces\L2Mentoring.Module1.Interfaces.csproj" />
   </ItemGroup>
 

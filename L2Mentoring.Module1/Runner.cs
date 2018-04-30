@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using L2Mentoring.Module1.Interfaces;
 using L2Mentoring.Module1.States;
@@ -14,13 +13,15 @@ namespace L2Mentoring.Module1
         private readonly IOrderService _orderService;
         private readonly IArgsVerifier _argsVerifyer;
         private readonly IProductParser _productParser;
+        private readonly IOrderBuilder _orderBuilder;
 
         public Runner(
             ICustomerService customerService, 
             IProductService productService, 
             IOrderService orderService, 
             IArgsVerifier argsVerifyer, 
-            IProductParser productParser
+            IProductParser productParser,
+            IOrderBuilder orderBuilder
             )
         {
             _customerService = customerService;
@@ -28,6 +29,7 @@ namespace L2Mentoring.Module1
             _orderService = orderService;
             _argsVerifyer = argsVerifyer;
             _productParser = productParser;
+            _orderBuilder = orderBuilder;
         }
         public ReturnState Startup(string[] args)
         {
@@ -38,6 +40,7 @@ namespace L2Mentoring.Module1
                 ICustomer currentCustomer = customerResponse.Entity;
 
                 var products = _productParser.ParseProducts(args[1]);
+                var order = _orderBuilder.BuildOrder(args[1]);
                 foreach (var product in products)
                 {
                     var productResponse = _productService.GetProduct(product.ProductName);
