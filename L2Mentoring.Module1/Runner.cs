@@ -36,6 +36,7 @@ namespace L2Mentoring.Module1
                 {
                     orderedProducts = servingResponse.Entity.ToList();
                 }
+                decimal price = currentCustomer.CalculateDiscount();
             }
             else
             {
