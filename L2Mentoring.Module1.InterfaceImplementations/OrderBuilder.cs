@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using DAL.Entities;
+using Services;
 
 namespace L2Mentoring.Module1.InterfaceImplementations
 {
@@ -16,16 +17,20 @@ namespace L2Mentoring.Module1.InterfaceImplementations
             _lineSeparator = lineSeparator;
         }
 
-        public Order BuildOrder(string orderList)
+        public GenericServiceResult<Order> BuildOrder(string orderList)
         {
             string[] orderLines = _lineSeparator.Separate(orderList);
             Order order = new Order();
             foreach(var orderLine in orderLines)
             {
-                OrderLine line = _orderLineBuilder.BuildOrderLine(orderLine);
-                order.Lines.Add(line);
+                GenericServiceResult<OrderLine> result = _orderLineBuilder.BuildOrderLine(orderLine);
+                if(result.Success==true)
+                {
+                    OrderLine line = _orderLineBuilder.BuildOrderLine(orderLine).Entity;
+                    order.Lines.Add(line);
+                }
             }
-            return order;
+            return new GenericServiceResult<Order>(order, true, "All good.");
         }
     }
 }

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "L2Mentoring.Module1": {
+      "commandName": "Project",
+      "commandLineArgs": "Zsolti Alma:8;Körte:10;Répa:6;Paprika:2;Paradicsom:4"
+    }
+  }
+}

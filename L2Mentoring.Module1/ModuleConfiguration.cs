@@ -39,6 +39,11 @@ namespace L2Mentoring.Module1
             For<IShoppingCart>().Use<ShoppingCart>();
             For<IArgsVerifier>().Use<ArgsVerifier>();
             For<IProductParser>().Use<ProductParser>();
+            For<IOrderBuilder>().Use<OrderBuilder>();
+            For<IOrderLineBuilder>().Use<OrderLineBuilder>();
+            For<IOrderProcessor>().Use<OrderProcessor>();
+            For<ICustomerAttendant>().Use<CustomerAttendant>();
+            For<ILineSeparator>().Use<LineSeparator>();
         }
     }
 }

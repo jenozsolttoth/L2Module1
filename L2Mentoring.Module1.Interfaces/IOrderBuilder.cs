@@ -1,10 +1,11 @@
 ﻿
 using DAL.Entities;
+using Services;
 
 namespace L2Mentoring.Module1.Interfaces
 {
     public interface IOrderBuilder
     {
-        Order BuildOrder(string orderList);
+        GenericServiceResult<Order> BuildOrder(string orderList);
     }
 }

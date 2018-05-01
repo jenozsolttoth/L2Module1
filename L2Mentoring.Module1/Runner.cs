@@ -9,27 +9,17 @@ namespace L2Mentoring.Module1
     public class Runner:IRunner
     {
         private readonly ICustomerService _customerService;
-        private readonly IProductService _productService;
-        private readonly IOrderService _orderService;
         private readonly IArgsVerifier _argsVerifyer;
-        private readonly IProductParser _productParser;
-        private readonly IOrderBuilder _orderBuilder;
-
+        private readonly ICustomerAttendant _customerAttendant;
         public Runner(
-            ICustomerService customerService, 
-            IProductService productService, 
-            IOrderService orderService, 
+            ICustomerService customerService,  
             IArgsVerifier argsVerifyer, 
-            IProductParser productParser,
-            IOrderBuilder orderBuilder
+            ICustomerAttendant customerAttendant
             )
         {
             _customerService = customerService;
-            _productService = productService;
-            _orderService = orderService;
             _argsVerifyer = argsVerifyer;
-            _productParser = productParser;
-            _orderBuilder = orderBuilder;
+            _customerAttendant = customerAttendant;
         }
         public ReturnState Startup(string[] args)
         {
@@ -39,21 +29,12 @@ namespace L2Mentoring.Module1
                 var customerResponse = _customerService.GetCustomer(args[0]);
                 ICustomer currentCustomer = customerResponse.Entity;
 
-                var products = _productParser.ParseProducts(args[1]);
-                var order = _orderBuilder.BuildOrder(args[1]);
-                foreach (var product in products)
-                {
-                    var productResponse = _productService.GetProduct(product.ProductName);
-                    if (productResponse.Success)
-                    {
-                        currentCustomer.AddToCart(productResponse.Entity, product.Quantity);
-                    }
-                }
-                var orderResponse = _orderService.PlaceOrder(currentCustomer.Cart.GetProducts());
+                var servingResponse = _customerAttendant.AttendCustomer(currentCustomer, args[1]);
+
                 List<IProduct> orderedProducts = new List<IProduct>();
-                if (orderResponse.Success)
+                if (servingResponse.Success)
                 {
-                    orderedProducts = orderResponse.Entity.ToList();
+                    orderedProducts = servingResponse.Entity.ToList();
                 }
             }
             else

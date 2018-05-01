@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "L2Mentoring.Module1.InterfaceImplementations": {
+      "commandName": "Project",
+      "commandLineArgs": "Zsolti Alma:8;Körte:7;Paradicsom:6;Paprika:2"
+    }
+  }
+}
