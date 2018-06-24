@@ -3,7 +3,7 @@ using ServiceInterfaces;
 
 namespace Services.CustomerService.Customers
 {
-    class MostValuableCustomer : ICustomer
+    public class MostValuableCustomer : ICustomer
     {
         private readonly IYearCounter _yearCounter;
         public MostValuableCustomer(string name, DateTime? registrationDate, IYearCounter yearCounter, IShoppingCart cart)

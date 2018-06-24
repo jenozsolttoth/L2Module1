@@ -3,7 +3,7 @@ using ServiceInterfaces;
 
 namespace Services.CustomerService.Customers
 {
-    class NonRegisteredCustomer : ICustomer
+    public class NonRegisteredCustomer : ICustomer
     {
         public NonRegisteredCustomer(string name, DateTime? registrationDate, IShoppingCart cart)
         {
